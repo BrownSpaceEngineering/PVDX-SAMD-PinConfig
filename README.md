@@ -170,6 +170,26 @@ Directly-connected chip selects, resets, and write-protect lines:
 
 ---
 
+## Magnetorquer (PWM)
+
+### MAGNETORQUER_XY — TCC0 (X and Y axes)
+
+| Signal     | Pin  | Direction |
+|------------|------|-----------|
+| MTQ_X_IN1  | PA20 | Output    |
+| MTQ_X_IN2  | PA21 | Output    |
+| MTQ_Y_IN1  | PA22 | Output    |
+| MTQ_Y_IN2  | PA23 | Output    |
+
+### MAGNETORQUER_Z — TCC1 (Z axis)
+
+| Signal     | Pin  | Direction |
+|------------|------|-----------|
+| MTQ_Z_IN1  | PD20 | Output    |
+| MTQ_Z_IN2  | PD21 | Output    |
+
+---
+
 ## Debug (SWD)
 
 | Function | Pin  |
@@ -202,10 +222,6 @@ The following SAMD51P20A pins have no assignment in the Atmel START configuratio
 
 | Pin  | Notes |
 |------|-------|
-| PA20 | Unallocated |
-| PA21 | Unallocated |
-| PA22 | Unallocated |
-| PA23 | Unallocated |
 | PA24 | Unallocated |
 | PA25 | Unallocated |
 | PA27 | Unallocated |
@@ -233,10 +249,3 @@ The following SAMD51P20A pins have no assignment in the Atmel START configuratio
 | PC26 | Unallocated |
 | PC27 | Unallocated |
 | PC28 | Unallocated |
-
-### Port D
-
-| Pin  | Notes |
-|------|-------|
-| PD20 | Unallocated |
-| PD21 | Unallocated |
