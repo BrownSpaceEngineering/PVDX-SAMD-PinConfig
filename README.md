@@ -79,7 +79,7 @@ Directly-connected chip selects, resets, and write-protect lines:
 | Signal           | Pin  | Direction | Initial Level |
 |------------------|------|-----------|---------------|
 | MAGNETOMETER_CS  | PC19 | Output    | High          |
-| MAGNETOMETER_DRDY| PC10 | Input     | Pull-down     |
+| MAGNETOMETER_DRDY| PC10 | Input     | High          |
 | GYRO_CS          | PC20 | Output    | High          |
 | GYRO_RST         | PC21 | Output    | High          |
 | GYRO_DRDY        | PC22 | Input     | —             |
@@ -227,8 +227,6 @@ The following SAMD51P20A pins have no assignment in the Atmel START configuratio
 
 | Pin  | Notes |
 |------|-------|
-| PC08 | Unallocated |
-| PC09 | Unallocated |
 | PC23 | Unallocated |
 | PC24 | Unallocated |
 | PC25 | Unallocated |
