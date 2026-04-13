@@ -2,8 +2,13 @@
 
 ## This repo serves as the official source of truth for the PVDX mission's pin configuration.
 
-Any edits to the .atzip file at this project's root must be commuted to the README.
+> [!NOTE] Any edits to the .atzip file at this project's root must be commuted to the README.
 Commits must be clearly labeled with which pins were changed and for what purpose.
+
+> [!NOTE] BEFORE YOU COMMIT: CHECK
+1. Does my PVDXosV2 compile with this ASF config?
+2. Make sure there's only one .atzip file in the repo, delete the old one (it will be in version control)
+3. Have I updated the README?
 
 
 # Compute Board — SAMD51P20A Pin Mapping Reference
